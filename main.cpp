@@ -1,6 +1,6 @@
 #include<vector>
 #include<iostream>
-extern class node_val_t;
+#include"huffman.h"
 int main(void)
 {
 	return 0;

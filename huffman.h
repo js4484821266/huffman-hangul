@@ -1,5 +1,6 @@
+#pragma once
 #include<vector>
-extern class htree;
+#include"htree.h"
 template<class node_t>
 class node_val_t :std::pair<node_t, long double> {};
 template<class node_t>
