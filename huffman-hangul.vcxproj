@@ -127,9 +127,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClInclude Include="bintree.h" />
-  </ItemGroup>
-  <ItemGroup>
+    <ClCompile Include="huffman-tree.cpp" />
     <ClCompile Include="huffman.cpp" />
     <ClCompile Include="main.cpp" />
   </ItemGroup>

@@ -15,15 +15,13 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="bintree.h">
-      <Filter>헤더 파일</Filter>
-    </ClInclude>
-  </ItemGroup>
-  <ItemGroup>
     <ClCompile Include="huffman.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
     <ClCompile Include="main.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="huffman-tree.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
   </ItemGroup>
