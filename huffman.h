@@ -26,6 +26,9 @@ public:
 	node_val_list_t(node_t data, weight_t weight = 0) :
 		node_val_list_t(node_val_t<node_t>(data, weight))
 	{}
+	node_val_list_t(std::initializer_list<node_val_t<node_t>>init) :
+		std::vector<node_val_t<node_t>>(init)
+	{}
 };
 template<class node_t>
 htree huffman(node_val_list_t<node_t> node_val_arg)
