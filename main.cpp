@@ -5,6 +5,7 @@ typedef node_val_t<wchar_t> hc_freq_t;
 typedef node_val_list_t<wchar_t> hc_freq_list_t;
 int main(void)
 {
+	setlocale(LC_ALL, "");
 	hc_freq_list_t c, v;
 	c.push_back(hc_freq_t(L'¤·', 78376));
 	c.push_back(hc_freq_t(L'¤¡', 65388));
