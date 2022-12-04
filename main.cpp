@@ -50,8 +50,10 @@ int main(void)
 	hc_freq_t(L'¤Î', 112)
 	};
 	std::wcout << int(c[0].first) << std::endl;
-	std::wcout << c[0].first << std::endl;
 	std::wcout << int(v[0].first) << std::endl;
+	std::wcout << c[0].first << std::endl;
 	std::wcout << v[0].first << std::endl;
+	std::wcout << c[0].second<< std::endl;
+	std::wcout << v[0].second << std::endl;
 	return 0;
 }
