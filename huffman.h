@@ -1,14 +1,15 @@
 #pragma once
 #include<vector>
-#include"htree.h"
+#include"h_tree.h"
 
 typedef long double weight_t;
-template<class node_t>using node_val_t = std::pair<node_t, weight_t>;
-template<class node_t>using node_val_list_t = std::vector<node_val_t<node_t>>;
+template<class NodeT>using node_val_t = std::pair<NodeT, weight_t>;
+template<class NodeT>using node_val_list_t = std::vector<node_val_t<NodeT>>;
 
-template<class node_t>
-htree<node_t> huffman(node_val_list_t<node_t> node_val_arg)
+template<class NodeT>
+h_tree<NodeT> huffman(node_val_list_t<NodeT> node_val_arg)
 {
-	htree<node_t> tree;
+	h_tree<NodeT> tree;
+	// your code here ...
 	return tree;
 }
