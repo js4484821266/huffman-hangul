@@ -55,7 +55,7 @@ int main(void)
 	std::wcout << int(v[0].first) << std::endl;
 	std::wcout << c[0].first << std::endl;
 	std::wcout << v[0].first << std::endl;
-	std::wcout << c[0].second<< std::endl;
+	std::wcout << c[0].second << std::endl;
 	std::wcout << v[0].second << std::endl;
 	return 0;
 }
