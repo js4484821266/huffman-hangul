@@ -3,13 +3,17 @@
 #include<vector>
 #include<string>
 
+namespace h_tree_t
+{
+	template<class TTermT> using sub_tree_t = std::pair< std::string, TTermT>;
+	template<class CTermT>using children_t = std::vector<sub_tree_t<CTermT>>;
+}
+
 template<class ChildrenTT>
 class h_tree
 {
 public:
-	template<class TTermT> using sub_tree_t = std::pair< std::string, TTermT>;
-	template<class CTermT>using children_t = std::vector<sub_tree_t<CTermT>>;
-	children_t<ChildrenTT> children;
+	h_tree_t::children_t<ChildrenTT> children;
 	std::vector<std::string> str(void)
 	{
 		std::vector<std::string>o;
