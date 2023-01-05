@@ -8,7 +8,8 @@ namespace js4484821266_h_tree
 {
 	namespace h_tree_t
 	{
-		// pair ( sign, data: subtree | term_data )
+		/* pair of the sign and the subtree, which may be just the terminal data.
+		 */
 		template <class TTermT>
 		using sub_tree_t = std::pair<std::wstring, TTermT>;
 
