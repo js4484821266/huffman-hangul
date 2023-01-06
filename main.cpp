@@ -57,5 +57,7 @@ int main(void)
 	std::wcout << v[0].first << std::endl;
 	std::wcout << c[0].second << std::endl;
 	std::wcout << v[0].second << std::endl;
+	auto strc = js4484821266_huffman::huffman(c).str();
+	auto strv = js4484821266_huffman::huffman(v).str();
 	return 0;
 }
